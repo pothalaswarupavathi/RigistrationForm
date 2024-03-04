@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+form{
+     position:relative;
+     align-items:center;
+    
+    
+     border:2px solid black;
+     border-radius:2px;
+     box-shadow:2px 2px 2px gray;
+     margin:20px;
+     width:50%;
+     height:50%;
+}
+.container{
+  padding:20px;
+  margin:20px;
+}
+lable{
+margin-left:10px;
+align-items:center;
+
+}
+input{
+ margin-right:10px;
+ align-items:center;
+}
+</style>
+</head>
+<body>
+  <form action="CallingServlet">
+  <div class="container">
+   <lable  for="name">Name</lable>
+   <input type="text" name="name"><br><br>
+   <lable for="password" >password</lable>
+   <input type="password" name="password"><br><br>
+   <lable for="email">email</lable>
+   <input type="text" name="email"><br><br>
+   <input type="submit">
+  </div>
+   
+  </form>
+</body>
+</html>
